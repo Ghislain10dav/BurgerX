@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - BurgerX</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Burger<span>X</span></div>
+        <nav class="nav-links">
+            <a href="index.html#hero">Accueil</a>
+            <a href="index.html#about">Concept</a>
+            <a href="index.html#menu">Menu</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+        <button class="cta-button" onclick="window.location.href='commander.html'">Commander</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1 class="page-title">NOTRE <span class="highlight">MENU DE LÉGENDE</span></h1>
+            <p class="page-subtitle">Découvrez tout notre assortiment de folie.</p>
+        </section>
+
+        <section class="menu" style="padding-top: 0;">
+            <div class="menu-grid">
+                <!-- Reusing Index menu items plus placeholders -->
+                <article class="menu-card glass-card">
+                    <img src="classic_burger.png" alt="Classic X Burger" class="card-image"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23333\'/></svg>'">
+                    <div class="card-content">
+                        <h3>Classic X</h3>
+                        <p>Bœuf Angus, cheddar affiné, sauce secrète X, pickles, salade croquante.</p>
+                        <span class="price">12.50 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <article class="menu-card glass-card">
+                    <img src="loaded_fries.png" alt="Loaded Fries" class="card-image"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23333\'/></svg>'">
+                    <div class="card-content">
+                        <h3>Loaded Cheddar Fries</h3>
+                        <p>Frites dorées, sauce cheddar fondu, bacon croustillant, jalapeños.</p>
+                        <span class="price">6.50 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <article class="menu-card glass-card">
+                    <img src="craft_drink.png" alt="Lemonade Maison" class="card-image"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23333\'/></svg>'">
+                    <div class="card-content">
+                        <h3>Urban Lemonade</h3>
+                        <p>Limonade artisanale au yuzu et menthe fraîche.</p>
+                        <span class="price">4.00 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <article class="menu-card glass-card">
+                    <img src="classic_burger.png" alt="Double X Burger" class="card-image"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23333\'/></svg>'">
+                    <div class="card-content">
+                        <h3>Double X Smash</h3>
+                        <p>Double steak smashé, triple dose de fromage, oignons caramélisés et sauce piquante.</p>
+                        <span class="price">14.90 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <article class="menu-card glass-card">
+                    <img src="loaded_fries.png" alt="Sweet Potato Fries" class="card-image"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23333\'/></svg>'">
+                    <div class="card-content">
+                        <h3>Sweet Potato Fries</h3>
+                        <p>Frites de patate douce croustillantes, servies avec une mayo épicée.</p>
+                        <span class="price">5.50 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <article class="menu-card glass-card">
+                    <img src="craft_drink.png" alt="Craft Beer" class="card-image"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'250\'><rect width=\'100%\' height=\'100%\' fill=\'%23333\'/></svg>'">
+                    <div class="card-content">
+                        <h3>Craft Beer X</h3>
+                        <p>Bière blonde artisanale brassée localement, notes d'agrumes.</p>
+                        <span class="price">6.00 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Burger<span>X</span></h3>
+                <p>Le goût de l'urbain.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mentions-legales.html">Mentions Légales</a>
+                <a href="politique-confidentialite.html">Politique de Confidentialité</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BurgerX. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

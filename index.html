@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerX - Fast Food Moderne</title>
+    <meta name="description"
+        content="Découvrez BurgerX, votre nouveau fast-food moderne offrant des burgers gourmets avec une ambiance unique.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Burger<span>X</span></div>
+        <nav class="nav-links">
+            <a href="#hero">Accueil</a>
+            <a href="#about">Concept</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="cta-button" onclick="window.location.href='commander.html'">Commander</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">LE FAST FOOD <br><span class="highlight">RÉINVENTÉ</span></h1>
+                <p class="hero-subtitle">Des ingrédients frais, une ambiance vibrante et des recettes uniques pour une
+                    expérience urbaine inoubliable.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="window.location.href='menu.html'">Voir le Menu</button>
+                    <button class="btn-secondary" onclick="window.location.href='histoire.html'">Notre Histoire</button>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="hero_burger.png" alt="Gourmet Burger" class="hero-image" id="hero-img">
+            </div>
+        </section>
+
+        <!-- About/Concept Section -->
+        <section id="about" class="about">
+            <div class="about-text">
+                <h2>L'AMBIANCE <span class="highlight">BURGERX</span></h2>
+                <p>Plongez dans un décor moderne et électrique. Chez BurgerX, le fast-food n'est plus seulement un repas
+                    sur le pouce, c'est une véritable immersion urbaine. Néon, design épuré, et saveurs intenses.</p>
+            </div>
+            <div class="about-gallery">
+                <!-- Image of restaurant interior -->
+                <img src="restaurant_interior.png" alt="Intérieur du restaurant moderne" class="gallery-image">
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <div class="menu-header">
+                <h2>NOTRE <span class="highlight">SÉLECTION</span></h2>
+                <p>Les incontournables de la street food revisités.</p>
+            </div>
+            <div class="menu-grid">
+                <!-- Card 1 -->
+                <article class="menu-card glass-card">
+                    <img src="classic_burger.png" alt="Classic X Burger" class="card-image">
+                    <div class="card-content">
+                        <h3>Classic X</h3>
+                        <p>Bœuf Angus, cheddar affiné, sauce secrète X, pickles, salade croquante.</p>
+                        <span class="price">12.50 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <!-- Card 2 -->
+                <article class="menu-card glass-card">
+                    <img src="loaded_fries.png" alt="Loaded Fries" class="card-image">
+                    <div class="card-content">
+                        <h3>Loaded Cheddar Fries</h3>
+                        <p>Frites dorées, sauce cheddar fondu, bacon croustillant, jalapeños.</p>
+                        <span class="price">6.50 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+                <!-- Card 3 -->
+                <article class="menu-card glass-card">
+                    <img src="craft_drink.png" alt="Lemonade Maison" class="card-image">
+                    <div class="card-content">
+                        <h3>Urban Lemonade</h3>
+                        <p>Limonade artisanale au yuzu et menthe fraîche.</p>
+                        <span class="price">4.00 €</span>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact/Newsletter Section -->
+        <section id="contact" class="contact">
+            <div class="contact-card glass-card">
+                <h2>REJOIGNEZ LE <span class="highlight">MOUVEMENT</span></h2>
+                <p>Inscrivez-vous pour recevoir nos offres exclusives et découvrir nos burgers éphémères en
+                    avant-première.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre adresse email" required>
+                    <button type="submit" class="btn-primary">S'inscrire</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Burger<span>X</span></h3>
+                <p>Le goût de l'urbain.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mentions-legales.html">Mentions Légales</a>
+                <a href="politique-confidentialite.html">Politique de Confidentialité</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BurgerX. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
